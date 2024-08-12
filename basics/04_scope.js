@@ -18,8 +18,24 @@ function one(){
 
     // console.log(website)
 
-    two()
+    //two()
+
+    one.two = two
+}
+// one()
+// one.two()
+
+
+function addOne(num){
+    return num + 1
 }
 
-one()
+// console.log(addOne(5))
+
+const addTwo = function(num){
+    return num + 2
+}
+
+// console.log(addTwo(5))
+
 
